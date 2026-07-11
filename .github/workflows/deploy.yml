@@ -22,5 +22,5 @@ jobs:
           script: |
             cd /home/ubuntu/cicd
             git pull origin dev
-            sudo cp -r * /var/www/html/
+            sudo cp -r . /var/www/html/
             sudo systemctl restart nginx
